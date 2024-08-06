@@ -1,0 +1,30 @@
+/* Navbar Component Styles */
+.custom-navbar {
+  background-color: #007DB9; /* Dark background for navbar */
+}
+
+.image-section .logo {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 15px
+}
+
+
+.input-group .form-control {
+  
+  border-radius: 15px;
+  width: 150px;
+  transition: width 0.3s ease;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #128c7e;
+}
+
+.input-group .input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #128c7e; /* Color for the search icon */
+  cursor: pointer;
+}
